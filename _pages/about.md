@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hello, World!
 
-I am fascinated by understanding and reasoning with **deep neural networks** (DNNs) and how we can enhance their cognitive plausibility. As different networks encode distinct assumptions, can we leverage these **inductive biases** to construct more robust models? For instance, is it possible to create networks that require less data and fewer parameters by modeling intricate objects as compositions of distinct parts?
+I am fascinated by understanding and reasoning with **deep neural networks** and how we can enhance their cognitive plausibility. As different networks encode distinct assumptions, can we leverage these **inductive biases** to construct more robust models? For instance, is it possible to create networks that require less data and fewer parameters by modeling intricate objects as compositions of distinct parts?
 
 To mention a bunch of keywords, I'm interested in *representation learning*, *object-centric learning*, *prototypical learning*, *shortcut learning*, *robustness*, *interpretability* and *foundation models*. Additionally, I'm keen on exploring diverse applications, such as medical image analysis and aerial/satellite imagery.
 
