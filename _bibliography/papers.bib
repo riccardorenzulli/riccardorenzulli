@@ -1,84 +1,137 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@unpublished{renzulli-rem,
+	title        = {Capsule Networks Do Not Need to Model Everything},
+	author       = {Renzulli, Riccardo and Tartaglione, Enzo and Grangetto, Marco},
+	year         = 2024,
+	note         = {In review}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{kinnari2022lsvl,
+	title        = {LSVL: Large-scale season-invariant visual localization for UAVs},
+	author       = {Jouko Kinnari and Riccardo Renzulli and Francesco Verdoja and Ville Kyrki},
+	year         = 2023,
+	journal      = {Robotics and Autonomous Systems},
+	volume       = 168,
+	pages        = 104497,
+	doi          = {https://doi.org/10.1016/j.robot.2023.104497},
+	issn         = {0921-8890},
+	url          = {https://www.sciencedirect.com/science/article/pii/S0921889023001367},
+	keywords     = {UAV, Localization, Wake-up robot problem, Seasonal appearance change},
+	abstract     = {Localization of autonomous unmanned aerial vehicles (UAVs) relies heavily on Global Navigation Satellite Systems (GNSS), which are susceptible to interference. Especially in security applications, robust localization algorithms independent of GNSS are needed to provide dependable operations of autonomous UAVs also in interfered conditions. Typical non-GNSS visual localization approaches rely on known starting pose, work only on a small-sized map, or require known flight paths before a mission starts. We consider the problem of localization with no information on initial pose or planned flight path. We propose a solution for global visual localization on large maps, based on matching orthoprojected UAV images to satellite imagery using learned season-invariant descriptors, and test with environment sizes up to 100 km2. We show that the method is able to determine heading, latitude and longitude of the UAV at 12.6–18.7 m lateral translation error in as few as 23.2–44.4 updates from an uninformed initialization, also in situations of significant seasonal appearance difference (winter–summer) between the UAV image and the map. We evaluate the characteristics of multiple neural network architectures for generating the descriptors, and likelihood estimation methods that are able to provide fast convergence and low localization error. We also evaluate the operation of the algorithm using real UAV data and evaluate running time on a real-time embedded platform. We believe this is the first work that is able to recover the pose of an UAV at this scale and rate of convergence, while allowing significant seasonal difference between camera observations and map.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{renzulli-effcaps,
+	title        = {Towards Efficient Capsule Networks},
+	author       = {Renzulli, Riccardo and Grangetto, Marco},
+	year         = 2022,
+	month        = 10,
+	booktitle    = {2022 IEEE International Conference on Image Processing (ICIP)},
+	volume       = {},
+	number       = {},
+	pages        = {2801--2805},
+	doi          = {10.1109/ICIP46576.2022.9897751},
+	issn         = {2381-8549},
+	abstract     = {From the moment Neural Networks dominated the scene for image processing, the computational complexity needed to solve the targeted tasks skyrocketed: against such an unsustainable trend, many strategies have been developed, ambitiously targeting performance’s preservation. Promoting sparse topologies, for example, allows the deployment of deep neural networks models on embedded, resource-constrained devices. Recently, Capsule Networks were introduced to enhance explainability of a model, where each capsule is an explicit representation of an object or its parts. These models show promising results on toy datasets, but their low scalability prevents deployment on more complex tasks. In this work, we explore sparsity besides capsule representations to improve their computational efficiency by reducing the number of capsules. We show how pruning with Capsule Network achieves high generalization with less memory requirements, computational effort, and inference and training time.},
+	keywords     = {},
+	code         = {https://github.com/EIDOSLAB/towards-efficient-capsule-networks}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{renzulli-ra,
+	title        = {Capsule Networks with Routing Annealing},
+	author       = {Renzulli, Riccardo and Tartaglione, Enzo and Fiandrotti, Attilio and Grangetto, Marco},
+	year         = 2021,
+	booktitle    = {Artificial Neural Networks and Machine Learning -- ICANN 2021},
+	publisher    = {Springer International Publishing},
+	address      = {Cham},
+	pages        = {529--540},
+	isbn         = {978-3-030-86362-3},
+	editor       = {Farka{\v{s}}, Igor and Masulli, Paolo and Otte, Sebastian and Wermter, Stefan},
+	abstract     = {Capsule Networks overcome some shortcomings of convolutional neural networks organizing neurons into groups of capsules. Capsule layers are dynamically connected by means of an iterative routing mechanism, which models the connection strengths between capsules from different layers. However, whether routing improves the network performance is still object of debate. This work tackles this issue via Routing Annealing (RA), where the number of routing iterations is annealed at training time. This proposal gives some insights on the effectiveness of the routing for Capsule Networks. Our experiments on different datasets and architectures show that RA yields better performance over a reference setup where the number of routing iterations is fixed (even in the limit case with no routing), especially for architectures with fewer parameters.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{entropi,
+	title        = {Shannon Strikes Again! Entropy-Based Pruning in Deep Neural Networks for Transfer Learning Under Extreme Memory and Computation Budgets},
+	author       = {Spadaro, Gabriele and Renzulli, Riccardo and Bragagnolo, Andrea and Giraldo, Jhony H. and Fiandrotti, Attilio and Grangetto, Marco and Tartaglione, Enzo},
+	year         = 2023,
+	month        = 10,
+	booktitle    = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+	pages        = {1518--1522},
+	abstract     = {Deep neural networks have become the de-facto standard across various computer science domains. Nonetheless, effectively training these deep networks remains challenging and resource-intensive. This paper investigates the efficacy of pruned deep learning models in transfer learning scenarios under extremely low memory budgets, tailored for TinyML models. Our study reveals that the source task's model with the highest activation entropy outperforms others in the target task. Motivated by this, we propose an entropy-based Efficient Neural Transfer with Reduced Overhead via PrunIng (ENTROPI) algorithm. Through comprehensive experiments on diverse models (ResNet18 and MobileNet-v3) and target datasets (CIFAR-100, VLCS, and PACS), we substantiate the superior generalization achieved by transfer learning from the entropy-pruned model. Quantitative measures for entropy provide valuable insights into the reasons behind the observed performance improvements. The results underscore ENTROPI's potential as an efficient solution for enhancing generalization in data-limited transfer learning tasks.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{twoensnerf,
+	title        = {Two is Better than One: Achieving High-Quality 3D Scene Modeling with a NeRF Ensemble},
+	author       = {Di Sario, Francesco and Renzulli, Riccardo and Tartaglione, Enzo and Grangetto, Marco},
+	year         = 2023,
+	booktitle    = {Image Analysis and Processing -- ICIAP 2023},
+	publisher    = {Springer Nature Switzerland},
+	address      = {Cham},
+	pages        = {320--331},
+	isbn         = {978-3-031-43153-1},
+	editor       = {Foresti, Gian Luca and Fusiello, Andrea and Hancock, Edwin},
+	abstract     = {Neural Radiance Field (NeRF) is a popular method for synthesizing novel views of a scene from a set of input images. While NeRF has demonstrated state-of-the-art performance in several applications, it suffers from high computational requirements. Recent works have attempted to address these issues by including explicit volumetric information, which makes the optimization process difficult when fine-graining the voxel grids. In this paper, we propose an ensemble approach that combines the strengths of two NeRF models to achieve superior results compared to state-of-the-art architectures, with a similar number of parameters. Experimental results show that our ensemble approach is a promising strategy for performance enhancement, and beats vanilla approaches under the same parameter's cardinality constraint.},
+	code         = {https://github.com/EIDOSLAB/nerf-ensemble-two-is-better-than-one}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{perfusion,
+	title        = {Neural network-derived perfusion maps: A model-free approach to computed tomography perfusion in patients with acute ischemic stroke},
+	author       = {Gava, Umberto A. and D’Agata, Federico and Tartaglione, Enzo and Renzulli, Riccardo and Grangetto, Marco and Bertolino, Francesca and Santonocito, Ambra and Bennink, Edwin and Vaudano, Giacomo and Boghi, Andrea and Bergui, Mauro},
+	year         = 2023,
+	journal      = {Frontiers in Neuroinformatics},
+	volume       = 17,
+	doi          = {10.3389/fninf.2023.852105},
+	issn         = {1662-5196},
+	url          = {https://www.frontiersin.org/articles/10.3389/fninf.2023.852105},
+	abstract     = {<sec>ObjectiveIn this study, we investigate whether a Convolutional Neural Network (CNN) can generate informative parametric maps from the pre-processed CT perfusion data in patients with acute ischemic stroke in a clinical setting.</sec><sec>MethodsThe CNN training was performed on a subset of 100 pre-processed perfusion CT dataset, while 15 samples were kept for testing. All the data used for the training/testing of the network and for generating ground truth (GT) maps, using a state-of-the-art deconvolution algorithm, were previously pre-processed using a pipeline for motion correction and filtering. Threefold cross validation had been used to estimate the performance of the model on unseen data, reporting Mean Squared Error (MSE). Maps accuracy had been checked through manual segmentation of infarct core and total hypo-perfused regions on both CNN-derived and GT maps. Concordance among segmented lesions was assessed using the Dice Similarity Coefficient (DSC). Correlation and agreement among different perfusion analysis methods were evaluated using mean absolute volume differences, Pearson correlation coefficients, Bland-Altman analysis, and coefficient of repeatability across lesion volumes.</sec><sec>ResultsThe MSE was very low for two out of three maps, and low in the remaining map, showing good generalizability. Mean Dice scores from two different raters and the GT maps ranged from 0.80 to 0.87. Inter-rater concordance was high, and a strong correlation was found between lesion volumes of CNN maps and GT maps (0.99, 0.98, respectively).</sec><sec>ConclusionThe agreement between our CNN-based perfusion maps and the state-of-the-art deconvolution-algorithm perfusion analysis maps, highlights the potential of machine learning methods applied to perfusion analysis. CNN approaches can reduce the volume of data required by deconvolution algorithms to estimate the ischemic core, and thus might allow the development of novel perfusion protocols with lower radiation dose deployed to the patient.</sec>},
+	code         = {https://github.com/EIDOSLAB/Neural-Network-derived-perfusion-maps}
+}
+
+@inproceedings{unitochest1,
+	title        = {UniToChest: A Lung Image Dataset for Segmentation of Cancerous Nodules on CT Scans},
+	author       = {Chaudhry, Hafiza Ayesha Hoor and Renzulli, Riccardo and Perlo, Daniele and Santinelli, Francesca and Tibaldi, Stefano and Cristiano, Carmen and Grosso, Marco and Limerutti, Giorgio and Fiandrotti, Attilio and Grangetto, Marco and Fonio, Paolo},
+	year         = 2022,
+	booktitle    = {Image Analysis and Processing -- ICIAP 2022},
+	publisher    = {Springer International Publishing},
+	address      = {Cham},
+	pages        = {185--196},
+	isbn         = {978-3-031-06427-2},
+	editor       = {Sclaroff, Stan and Distante, Cosimo and Leo, Marco and Farinella, Giovanni M. and Tombari, Federico},
+	abstract     = {Lung cancer has emerged as a major causes of death and early detection of lung nodules is the key towards early cancer diagnosis and treatment effectiveness assessment. Deep neural networks achieve outstanding results in tasks such as lung nodules detection, segmentation and classification, however their performance depends on the quality of the training images and on the training procedure. This paper introduces UniToChest, a dataset consisting Computed Tomography (CT) scans of 623 patients. Then, we propose a lung nodules segmentation scheme relying on a convolutional neural architecture that we also re-purpose for a nodule detection task. The experimental results show accurate segmentation of lung nodules across a wide diameter range and better detection accuracy over a traditional detection approach. The datasets and the code used in this paper are publicly made available as a baseline reference.},
+	code         = {https://github.com/deephealthproject/UC4_pipeline}
+}
+
+@inproceedings{unitochest-deephealth,
+	title        = {Lung Nodules Segmentation with DeepHealth Toolkit},
+	author       = {Chaudhry, Hafiza Ayesha Hoor and Renzulli, Riccardo and Perlo, Daniele and Santinelli, Francesca and Tibaldi, Stefano and Cristiano, Carmen and Grosso, Marco and Fiandrotti, Attilio and Lucenteforte, Maurizio and Cavagnino, Davide},
+	year         = 2022,
+	booktitle    = {Image Analysis and Processing. ICIAP 2022 Workshops},
+	publisher    = {Springer International Publishing},
+	address      = {Cham},
+	pages        = {487--497},
+	isbn         = {978-3-031-13321-3},
+	editor       = {Mazzeo, Pier Luigi and Frontoni, Emanuele and Sclaroff, Stan and Distante, Cosimo},
+	abstract     = {The accurate and consistent border segmentation plays an important role in the tumor volume estimation and its treatment in the field of Medical Image Segmentation. Globally, Lung cancer is one of the leading causes of death and the early detection of lung nodules is essential for the early cancer diagnosis and survival rate of patients. The goal of this study was to demonstrate the feasibility of Deephealth toolkit including PyECVL and PyEDDL libraries to precisely segment lung nodules. Experiments for lung nodules segmentation has been carried out on UniToChest using PyECVL and PyEDDL, for data pre-processing as well as neural network training. The results depict accurate segmentation of lung nodules across a wide diameter range and better accuracy over a traditional detection approach. The datasets and the code used in this paper are publicly available as a baseline reference.},
+	code         = {https://github.com/deephealthproject/UC4_pipeline}
+}
+
+@inproceedings{rat-owl,
+	title        = {{RAT-OWL:} Reasoning with Rational Closure in Description Logics of Typicality},
+	author       = {Giordano, Laura and Gliozzi, Valentina, and Pozzato, Gian Luca and Renzulli, Riccardo},
+	year         = 2017,
+	booktitle    = {Joint Proceedings of the 18th Italian Conference on Theoretical Computer Science and the 32nd Italian Conference on Computational Logic},
+	publisher    = {CEUR-WS.org},
+	series       = {{CEUR} Workshop Proceedings},
+	volume       = 1949,
+	pages        = {306--320},
+	editor       = {Dario Della Monica and Aniello Murano and Sasha Rubin and Luigi Sauro}
+}
+
+@inproceedings{reasoner,
+	title        = {An Efficient Reasoner for Description Logics of Typicality and Rational Closure},
+	author       = {Giordano, Laura and Gliozzi, Valentina, and Pozzato, Gian Luca and Renzulli, Riccardo},
+	year         = 2017,
+	booktitle    = {Proceedings of the 30th International Workshop on Description Logics},
+	publisher    = {CEUR-WS.org},
+	series       = {{CEUR} Workshop Proceedings},
+	volume       = 1879,
+	editor       = {Alessandro Artale and Birte Glimm and Roman Kontchakov}
 }
