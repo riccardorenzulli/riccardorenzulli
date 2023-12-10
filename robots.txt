@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://riccardorenzulli.github.io/al-folio/sitemap.xml
+Sitemap: https://riccardorenzulli.github.io/riccardorenzulli//sitemap.xml
