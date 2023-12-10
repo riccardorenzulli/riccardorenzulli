@@ -7,7 +7,7 @@ subtitle: Postdoctoral Researcher, University of Turin, <a href='https://eidos.d
 profile:
   align: right
   image: IMG_5895.JPG
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
 
 news: true  # includes a list of news items
@@ -16,9 +16,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, World!
+**Hello, World!** 👋
 
-I am fascinated by understanding and reasoning with **deep neural networks** and how we can enhance their cognitive plausibility. As different networks encode distinct assumptions, can we leverage these **inductive biases** to construct more robust models? For instance, is it possible to create networks that require less data and fewer parameters by modeling intricate objects as compositions of distinct parts?
+I am fascinated by **understanding** and **reasoning** with **deep neural networks** and how we can enhance their cognitive plausibility. As different networks encode distinct assumptions, can we leverage these **inductive biases** to construct more robust models? For instance, is it possible to create networks that require less data and fewer parameters by modeling intricate objects as compositions of distinct parts?
 
 To mention a bunch of keywords, I'm interested in *representation learning*, *object-centric learning*, *prototypical learning*, *shortcut learning*, *robustness*, *interpretability* and *foundation models*. Additionally, I'm keen on exploring diverse applications, such as medical image analysis and aerial/satellite imagery.
 
