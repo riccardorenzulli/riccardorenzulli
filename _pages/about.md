@@ -22,7 +22,7 @@ I am fascinated by **understanding** and **reasoning** with **deep neural networ
 
 To mention a bunch of keywords, I'm interested in *representation learning*, *object-centric learning*, *prototypical learning*, *shortcut learning*, *robustness*, *interpretability* and *foundation models*. Additionally, I'm keen on exploring diverse applications, such as medical image analysis and aerial/satellite imagery.
 
-I received my **PhD** from **University of Turin** in 2023, advised by Prof. Marco Grangetto. My PhD research focused on **capsule networks**, which are deep learning models that encode objects into vector representations, called capsules, that can be used to model hierarchical relationships better.
+I received my **PhD** from **University of Turin** in 2023, advised by Prof. Marco Grangetto. My PhD research focused on **capsule networks** (check [here](https://docs.google.com/presentation/d/1k2axJVbhXWC9fM4cVLhYJ0pYhX2hEIBOSGsJNUAadJQ/edit?usp=sharing) the presentation of my defense), which are deep learning models that encode objects into vector representations, called capsules, that can be used to model hierarchical relationships better.
 
 In 2022, I spent six months at **Aalto University** (Helsinki, Finland), supervised by Prof. Ville Kyrki and Francesco Verdoja, where I developed a system for non-GNSS visual localization of UAVs.
 
